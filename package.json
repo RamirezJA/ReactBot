@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "React bot for webpage",
   "main": "index.js",
+  "engines": {
+    "node": "14.15.1",
+    "npm": "7.24.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "author": "Jose Ramirez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
